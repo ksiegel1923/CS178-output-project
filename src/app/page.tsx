@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <MyComponent></MyComponent>
-      {/* <Wrapper apiKey={"AIzaSyBzGiGIWB8Byg-S6Pn2qSUNSSULy4pmeF4"}>
+      {/* <Wrapper apiKey={"APIKey"}>
         <MyComponent center={center} zoom={zoom} />
       </Wrapper> */}
     </main>

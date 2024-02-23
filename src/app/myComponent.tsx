@@ -17,7 +17,7 @@ const containerStyle = {
 function MyComponent() {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyBzGiGIWB8Byg-S6Pn2qSUNSSULy4pmeF4",
+    googleMapsApiKey: "API_Key",
   });
   const center = useMemo(() => ({ lat: 18.52043, lng: 73.856743 }), []);
 
