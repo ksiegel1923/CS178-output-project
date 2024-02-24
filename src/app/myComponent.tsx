@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
 
@@ -14,7 +15,7 @@ const center = {
 function MyComponent() {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "API_Key",
+    googleMapsApiKey: process.env.NEXT_PUBLIC_API_KEY,
   });
 
   const [map, setMap] = React.useState(null);
